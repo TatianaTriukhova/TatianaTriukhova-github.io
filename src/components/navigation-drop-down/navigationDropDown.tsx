@@ -6,10 +6,10 @@ import './NavigationDropDown.css'
 
 function NavigationDropDown() {
   const menu = (
-    <Menu>
+    <Menu className={'list'}>
       {navigationItems.map((item) => {
         return (
-          <Menu.Item>
+          <Menu.Item className={'listItem'}>
             <a className={'title'}rel={item.href} href={`#${item.href}`}>
               {item.title}
             </a>

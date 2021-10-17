@@ -1,3 +1,12 @@
-.title {
-    font-size: 18px
+.list {
+    padding-top: 1rem 
+} 
+
+.listItem {
+    padding-bottom: 1.5rem
 }
+
+.title {
+    font-size: 18px;
+}
+
