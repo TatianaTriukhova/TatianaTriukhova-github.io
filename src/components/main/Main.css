@@ -60,19 +60,19 @@
 .infoName {
   font-family: "Merriweather";
   font-size: 1.5rem;
-  font-weight: lighter;
   letter-spacing: 1px;
   color: #3d3f79;
   width: 100%;
+  font-weight: 500
 }
 
 .infoOccupation {
   font-family: "Merriweather";
   font-size: 1rem;
-  font-weight: lighter;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   color: #3d3f79;
   width: 100%;
+  font-weight: 500;
 }
 .fieldHeader {
   margin-top: 1.5vw;
@@ -87,10 +87,11 @@
 .fieldContent {
   font-family: "Merriweather";
   font-size: 1rem;
-  font-weight: lighter;
   letter-spacing: 1px;
   color: #3d3f79;
   width: 100%;
+  font-weight: 500
+
 }
 
 .introSection {

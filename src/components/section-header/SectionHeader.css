@@ -16,3 +16,8 @@
   position: relative;
   top: -10rem;
 }
+
+.name {
+  font-weight: 600;
+  font-size: 30px
+}

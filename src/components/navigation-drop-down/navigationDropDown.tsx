@@ -2,7 +2,7 @@ import "./NavigationDropDown.css";
 import { Dropdown, Menu } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import { navigationItems } from "../../data/data";
-
+import './NavigationDropDown.css'
 
 function NavigationDropDown() {
   const menu = (
@@ -10,7 +10,7 @@ function NavigationDropDown() {
       {navigationItems.map((item) => {
         return (
           <Menu.Item>
-            <a rel={item.href} href={`#${item.href}`}>
+            <a className={'title'}rel={item.href} href={`#${item.href}`}>
               {item.title}
             </a>
           </Menu.Item>
@@ -22,7 +22,7 @@ function NavigationDropDown() {
     <div>
       <Dropdown
         overlayStyle={{
-          width: "8rem",
+          width: "15rem",
           boxShadow: "0px 2px 10px -2px rgba(0, 0, 0, 0.35)",
           textAlign: "center",
         }}
