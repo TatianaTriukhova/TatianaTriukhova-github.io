@@ -2,6 +2,8 @@ import "./TopPanel.css";
 import NavigationDropDown from "../navigation-drop-down/navigationDropDown";
 import useWindowWidth from "../../hooks/useWindowWidthCalculator";
 import { navigationItems } from "../../data/data";
+
+
 function TopPanel() {
   const isLargeScreen = useWindowWidth();
   return (
