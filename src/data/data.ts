@@ -73,11 +73,6 @@ export const languages = [
 
 export const educationEntries = [
   {
-    date: "2014-2018",
-    title: "BA Computer Science",
-    institution: "American University in Bulgaria"
-  },
-  {
     date: "2013-2014",
     title: "English Language Diploma",
     institution: "English Language Institute"
@@ -85,6 +80,11 @@ export const educationEntries = [
   {
     date: "2014-2018",
     title: "BA Business Administration",
+    institution: "American University in Bulgaria"
+  },
+  {
+    date: "2014-2018",
+    title: "BA Computer Science",
     institution: "American University in Bulgaria"
   }
 ];

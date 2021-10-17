@@ -1,6 +1,6 @@
 import "./EducationList.css";
 import { Steps } from "antd";
-
+import isMobile from 'ismobilejs';
 
 export interface EducationEntryType {
   date: string;
@@ -8,12 +8,16 @@ export interface EducationEntryType {
   institution: string;
 }
 
-function EducationList({educationEntries}:{educationEntries: EducationEntryType[]}) {
+function EducationList({ educationEntries }: { educationEntries: EducationEntryType[] }) {
   const { Step } = Steps;
+  function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+  };
+  const entries = isMobileDevice() ? educationEntries.reverse() : educationEntries
   return (
     <div className="steps">
       <Steps className="stepsContainer" progressDot responsive>
-        {educationEntries.map((entry => {
+        {entries.map((entry => {
           return (
             <Step
               title={entry.title}
