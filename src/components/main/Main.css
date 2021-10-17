@@ -1,0 +1,138 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2%;
+}
+
+.imgWrapper {
+  height: 25rem;
+  overflow-y: hidden;
+  position: absolute;
+}
+
+.backgroundImg {
+  width: 100%;
+  height: auto;
+}
+
+.mainContent {
+  width: fit-content;
+  max-width: 90%;
+  min-width: 55%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 5rem;
+  border: 1px solid gray;
+  margin-bottom: 10rem;
+  background-color: #f1f1f1;
+}
+.pictureWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  max-width: 50%;
+  background-color: white;
+  padding: 2vw;
+}
+
+.picture {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vw 3vw 3vw 5vw;
+  width: 50%;
+  color: #2d1d2b;
+}
+
+.infoName {
+  font-family: "Merriweather";
+  font-size: 1.5rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #3d3f79;
+  width: 100%;
+}
+
+.infoOccupation {
+  font-family: "Merriweather";
+  font-size: 1rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #3d3f79;
+  width: 100%;
+}
+.fieldHeader {
+  margin-top: 1.5vw;
+  font-family: "Merriweather";
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #3d3f79;
+  width: 100%;
+  font-weight: bold;
+}
+
+.fieldContent {
+  font-family: "Merriweather";
+  font-size: 1rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #3d3f79;
+  width: 100%;
+}
+
+.introSection {
+  width: 30rem;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 1.2rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #474977;
+  line-height: 1.5rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.introSection h2 {
+  color: #474977;
+}
+
+@media screen and (max-width: 600px) {
+  .mainContent {
+    flex-direction: column;
+    top: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .pictureWrapper {
+    margin-top: 2rem;
+  }
+  .info {
+    width: 100%;
+    text-align: center;
+  }
+  .introSection {
+    width: 20rem;
+  }
+  
+}
+
+
+@media screen and (max-width: 1000px) {
+  .pictureWrapper {
+    max-width: 80%;
+  }
+}

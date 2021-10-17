@@ -1,0 +1,50 @@
+.listEntry {
+  display: flex;
+  flex-direction: row;
+  font-family: "Merriweather";
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #393a55;
+  justify-content: center;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  border-right: 1px solid #f1f1f1;
+  width: 50%;
+  padding: 0 4%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+  padding: 0 4%;
+  word-break: break-word;
+}
+
+.date {
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 500px) {
+  .listEntry {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  .left {
+    width: 100%;
+    text-align: left;
+    border-right:none;
+  }
+  .right {
+    width: 100%;
+    text-align: left;
+  }
+}

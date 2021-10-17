@@ -1,0 +1,18 @@
+.sectionHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px solid #f1f1f1;
+  height: 5rem;
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.buffer {
+  position: relative;
+  top: -10rem;
+}

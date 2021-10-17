@@ -1,0 +1,9 @@
+.steps {
+  width: 100%;
+  display: flex;
+  padding-top: 3rem;
+  justify-content: center;
+}
+.stepsContainer {
+  width: 80%
+}

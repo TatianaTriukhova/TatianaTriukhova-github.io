@@ -1,0 +1,33 @@
+.paragraphsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Merriweather";
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 100%;
+  padding: 3% 5%;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+.paragraph {
+  word-break: break-word;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: auto;
+  padding: 0% 2%;
+  color: #393a55;
+  line-height: 1.7rem;
+}
+
+.content {
+  padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .paragraphsContainer {
+    flex-direction: column;
+  }
+}

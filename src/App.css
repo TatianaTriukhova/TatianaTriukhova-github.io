@@ -1,0 +1,8 @@
+@import "~antd/dist/antd.css";
+
+.app {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+}
