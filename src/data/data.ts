@@ -17,40 +17,52 @@ export const navigationItems = [
   },
 ];
 
-export const technologies = [
+export const frontendTech = [
   {
     title: "React",
     image: "react.svg",
-    percent: 80
+    percent: 80,
   },
   {
     title: "TypeScript",
     image: "ts.svg",
-    percent: 70
+    percent: 70,
   },
+  {
+    title: "Nextjs",
+    image: "next.svg",
+    percent: 40,
+  },
+];
+export const backendDevopsTech = [
   {
     title: "Node",
     image: "node.svg",
-    percent: 60
+    percent: 60,
   },
   {
-    title: "Redux",
-    image: "redux.svg",
-    percent: 60
+    title: "Kubernetes",
+    image: "kubernetes.svg",
+    percent: 60,
+  },
+  {
+    title: "Docker",
+    image: "docker.svg",
+    percent: 60,
   },
 ];
 export const softSkills = [
   {
     title: "Critical thinking",
-    image: "ts.svg",
   },
   {
     title: "Teamwork",
-    image: "react.svg",
   },
   {
     title: "Problem solving",
-    image: "node.svg",
+  },
+  {
+    title: "R&D",
   },
 ];
 export const languages = [
@@ -75,23 +87,29 @@ export const educationEntries = [
   {
     date: "2013-2014",
     title: "English Language Diploma",
-    institution: "English Language Institute"
+    institution: "English Language Institute",
   },
   {
     date: "2014-2018",
     title: "BA Business Administration",
-    institution: "American University in Bulgaria"
+    institution: "American University in Bulgaria",
   },
   {
     date: "2014-2018",
     title: "BA Computer Science",
-    institution: "American University in Bulgaria"
-  }
+    institution: "American University in Bulgaria",
+  },
 ];
 
 export const experienceEntries = [
   {
-    date: "September 2019 - current",
+    date: "August 2022 - Current",
+    position: "Full-stack web developer",
+    company: "Borealis Digital Studio (Zaventem, Belgium)",
+    description: "Develop web applications and internal design system",
+  },
+  {
+    date: "September 2019 - August 2022",
     position: "Software engineer",
     company: "MediaGenix (Brussels, Belgium)",
     description: "Desktop and web development",
@@ -101,13 +119,6 @@ export const experienceEntries = [
     position: "Web developer (internship)",
     company: "Digital sails (Moscow, Russia)",
     description: "Web development",
-  },
-  {
-    date: "May 2018 - October 2018",
-    position: "Store Manager",
-    company: "Pollacks (Nantucket, USA)",
-    description:
-      "Ensuring continuous communication between the company and its major suppliers and customers",
   },
 ];
 
