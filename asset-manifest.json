@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c797073d.chunk.css",
-    "main.js": "/static/js/main.8b166cff.chunk.js",
-    "main.js.map": "/static/js/main.8b166cff.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b35f4b45.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b35f4b45.js.map",
-    "static/css/2.09765660.chunk.css": "/static/css/2.09765660.chunk.css",
-    "static/js/2.2d4e7d38.chunk.js": "/static/js/2.2d4e7d38.chunk.js",
-    "static/js/2.2d4e7d38.chunk.js.map": "/static/js/2.2d4e7d38.chunk.js.map",
-    "static/js/3.9b259920.chunk.js": "/static/js/3.9b259920.chunk.js",
-    "static/js/3.9b259920.chunk.js.map": "/static/js/3.9b259920.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.09765660.chunk.css.map": "/static/css/2.09765660.chunk.css.map",
-    "static/css/main.c797073d.chunk.css.map": "/static/css/main.c797073d.chunk.css.map",
-    "static/js/2.2d4e7d38.chunk.js.LICENSE.txt": "/static/js/2.2d4e7d38.chunk.js.LICENSE.txt"
+    "main.css": "/TatianaTriukhova.github.io/static/css/main.98315825.css",
+    "main.js": "/TatianaTriukhova.github.io/static/js/main.1538f4e4.js",
+    "static/js/787.a372b053.chunk.js": "/TatianaTriukhova.github.io/static/js/787.a372b053.chunk.js",
+    "index.html": "/TatianaTriukhova.github.io/index.html",
+    "main.98315825.css.map": "/TatianaTriukhova.github.io/static/css/main.98315825.css.map",
+    "main.1538f4e4.js.map": "/TatianaTriukhova.github.io/static/js/main.1538f4e4.js.map",
+    "787.a372b053.chunk.js.map": "/TatianaTriukhova.github.io/static/js/787.a372b053.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b35f4b45.js",
-    "static/css/2.09765660.chunk.css",
-    "static/js/2.2d4e7d38.chunk.js",
-    "static/css/main.c797073d.chunk.css",
-    "static/js/main.8b166cff.chunk.js"
+    "static/css/main.98315825.css",
+    "static/js/main.1538f4e4.js"
   ]
 }
