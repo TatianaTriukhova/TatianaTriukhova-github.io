@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TatianaTriukhova.github.io/static/css/main.98315825.css",
-    "main.js": "/TatianaTriukhova.github.io/static/js/main.1538f4e4.js",
-    "static/js/787.a372b053.chunk.js": "/TatianaTriukhova.github.io/static/js/787.a372b053.chunk.js",
-    "index.html": "/TatianaTriukhova.github.io/index.html",
-    "main.98315825.css.map": "/TatianaTriukhova.github.io/static/css/main.98315825.css.map",
-    "main.1538f4e4.js.map": "/TatianaTriukhova.github.io/static/js/main.1538f4e4.js.map",
-    "787.a372b053.chunk.js.map": "/TatianaTriukhova.github.io/static/js/787.a372b053.chunk.js.map"
+    "main.css": "/static/css/main.98315825.css",
+    "main.js": "/static/js/main.77d41811.js",
+    "static/js/787.a372b053.chunk.js": "/static/js/787.a372b053.chunk.js",
+    "index.html": "/index.html",
+    "main.98315825.css.map": "/static/css/main.98315825.css.map",
+    "main.77d41811.js.map": "/static/js/main.77d41811.js.map",
+    "787.a372b053.chunk.js.map": "/static/js/787.a372b053.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98315825.css",
-    "static/js/main.1538f4e4.js"
+    "static/js/main.77d41811.js"
   ]
 }
