@@ -2,11 +2,10 @@ import "./ExperienceListEntry.css";
 
 export interface ListEntryType {
   date: string;
-  position: string;
+  positions: { name: string; description: string }[];
   company: string;
-  description: string;
 }
-function ExperienceListEntry({ date, position, company, description }: ListEntryType) {
+function ExperienceListEntry({ date, positions, company }: ListEntryType) {
   return (
     <div className="listEntry">
       <div className="left">
@@ -14,8 +13,14 @@ function ExperienceListEntry({ date, position, company, description }: ListEntry
         <p className="title">{company}</p>
       </div>
       <div className="right">
-        <span className="title">{position.toUpperCase()}</span>
-        <p className="listEntryContent">{description}</p>
+        {positions.map((position) => {
+          return (
+            <>
+              <span className="title">{position.name.toUpperCase()}</span>
+              <p className="listEntryContent">{position.description}</p>
+            </>
+          );
+        })}
       </div>
     </div>
   );

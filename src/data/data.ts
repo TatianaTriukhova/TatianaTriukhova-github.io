@@ -24,6 +24,11 @@ export const frontendTech = [
     percent: 80,
   },
   {
+    title: "JavaScript",
+    image: "js.svg",
+    percent: 80,
+  },
+  {
     title: "TypeScript",
     image: "ts.svg",
     percent: 70,
@@ -36,6 +41,11 @@ export const frontendTech = [
 ];
 export const backendDevopsTech = [
   {
+    title: "Python",
+    image: "python.svg",
+    percent: 40,
+  },
+  {
     title: "Node",
     image: "node.svg",
     percent: 60,
@@ -43,7 +53,7 @@ export const backendDevopsTech = [
   {
     title: "Kubernetes",
     image: "kubernetes.svg",
-    percent: 60,
+    percent: 40,
   },
   {
     title: "Docker",
@@ -104,21 +114,28 @@ export const educationEntries = [
 export const experienceEntries = [
   {
     date: "August 2022 - Current",
-    position: "Full-stack web developer",
+    positions: [
+      {
+        name: "Full-stack web developer",
+        description: "Develop web applications and internal design system",
+      },
+      {
+        name: "Data chapter lead",
+        description:
+          "Facilitate collaboration between Data&Analytics team and web developers",
+      },
+    ],
     company: "Borealis Digital Studio (Zaventem, Belgium)",
-    description: "Develop web applications and internal design system",
   },
   {
     date: "September 2019 - August 2022",
-    position: "Software engineer",
+    positions: [
+      {
+        name: "Software engineer",
+        description: "Desktop and web development",
+      },
+    ],
     company: "MediaGenix (Brussels, Belgium)",
-    description: "Desktop and web development",
-  },
-  {
-    date: "February 2019 - April 2019",
-    position: "Web developer (internship)",
-    company: "Digital sails (Moscow, Russia)",
-    description: "Web development",
   },
 ];
 

@@ -16,7 +16,7 @@ function Skills({ id }: { id: string }) {
       <div className="skillsContainer">
         <div className="collapseContainer">
           <Collapse defaultActiveKey={["1"]}>
-            <Panel header="Front-end technologies" key="1">
+            <Panel header="Frontend" key="1">
               <List
                 itemLayout="horizontal"
                 dataSource={frontendTech}
@@ -35,46 +35,6 @@ function Skills({ id }: { id: string }) {
                         />
                       }
                     />
-                  </List.Item>
-                )}
-              />
-            </Panel>
-          </Collapse>
-          <Collapse defaultActiveKey={["2"]}>
-            <Panel header="Backend and DevOps" key="2">
-              <List
-                itemLayout="horizontal"
-                dataSource={backendDevopsTech}
-                renderItem={(item) => (
-                  <List.Item>
-                    <List.Item.Meta
-                      avatar={<Avatar src={item.image} />}
-                      title={<span>{item.title}</span>}
-                      description={
-                        <Progress
-                          strokeColor={{
-                            "0%": "#108ee9",
-                            "100%": "#87d068",
-                          }}
-                          percent={item.percent}
-                        />
-                      }
-                    />
-                  </List.Item>
-                )}
-              />
-            </Panel>
-          </Collapse>
-        </div>
-        <div className="collapseContainer">
-          <Collapse defaultActiveKey={["3"]}>
-            <Panel header="Soft skills" key="3">
-              <List
-                itemLayout="horizontal"
-                dataSource={softSkills}
-                renderItem={(item) => (
-                  <List.Item>
-                    <List.Item.Meta title={<span>{item.title}</span>} />
                   </List.Item>
                 )}
               />
@@ -100,6 +60,46 @@ function Skills({ id }: { id: string }) {
                         />
                       }
                     />
+                  </List.Item>
+                )}
+              />
+            </Panel>
+          </Collapse>
+        </div>
+        <div className="collapseContainer">
+          <Collapse defaultActiveKey={["2"]}>
+            <Panel header="Backend and DevOps" key="2">
+              <List
+                itemLayout="horizontal"
+                dataSource={backendDevopsTech}
+                renderItem={(item) => (
+                  <List.Item>
+                    <List.Item.Meta
+                      avatar={<Avatar src={item.image} />}
+                      title={<span>{item.title}</span>}
+                      description={
+                        <Progress
+                          strokeColor={{
+                            "0%": "#108ee9",
+                            "100%": "#87d068",
+                          }}
+                          percent={item.percent}
+                        />
+                      }
+                    />
+                  </List.Item>
+                )}
+              />
+            </Panel>
+          </Collapse>
+          <Collapse defaultActiveKey={["3"]}>
+            <Panel header="Soft skills" key="3">
+              <List
+                itemLayout="horizontal"
+                dataSource={softSkills}
+                renderItem={(item) => (
+                  <List.Item>
+                    <List.Item.Meta title={<span>{item.title}</span>} />
                   </List.Item>
                 )}
               />
